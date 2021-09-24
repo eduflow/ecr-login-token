@@ -18,7 +18,6 @@ export async function run(): Promise<void> {
     const region = await getRegion(registry);
 
     if (arn !== '') {
-
       var sts = new STS({credentials: creds, region: region});
 
       var _newCreds = await sts.assumeRole({RoleArn: arn, RoleSessionName: 'AssumeRoleECR'}).promise();

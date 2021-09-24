@@ -1,4 +1,4 @@
-import { saveState }  from '@actions/core';
+import {saveState} from '@actions/core';
 
 export const IsPost = !!process.env['STATE_isPost'];
 export const registry = process.env['STATE_registry'] || '';
