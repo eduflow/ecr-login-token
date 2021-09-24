@@ -26,26 +26,26 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/exec": "^1.0.4",
-    "@actions/io": "^1.0.2",
-    "aws-sdk": "^2.803.0",
-    "semver": "^7.3.4",
-    "webpack-bundle-analyzer": "^4.2.0"
+    "@actions/core": "^1.5.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/io": "^1.1.1",
+    "aws-sdk": "^2.994.0",
+    "semver": "^7.3.5",
+    "webpack-bundle-analyzer": "^4.4.2"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.3",
-    "@types/node": "^14.0.14",
-    "@vercel/ncc": "^0.23.0",
-    "dotenv": "^8.2.0",
-    "jest": "^26.1.0",
-    "jest-circus": "^26.1.0",
-    "jest-runtime": "^26.1.0",
-    "prettier": "^2.0.5",
-    "ts-jest": "^26.1.1",
-    "typescript": "^3.9.5",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.9.6",
+    "@vercel/ncc": "^0.31.1",
+    "dotenv": "^10.0.0",
+    "jest": "^27.2.1",
+    "jest-circus": "^27.2.1",
+    "jest-runtime": "^27.2.1",
+    "prettier": "^2.4.1",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3",
     "typescript-formatter": "^7.2.2",
-    "webpack": "^5.9.0",
-    "webpack-cli": "^4.2.0"
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
   }
 }
