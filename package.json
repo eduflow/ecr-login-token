@@ -3,7 +3,7 @@
   "description": "GitHub Action to get ecr token for Docker containers hosted at Amazon ECR",
   "main": "lib/main.js",
   "scripts": {
-    "build": "tsc && ncc build",
+    "build": "tsc && ncc build --license index.js.LICENSE.txt",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
     "test": "jest --coverage",
