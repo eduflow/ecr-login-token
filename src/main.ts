@@ -46,7 +46,9 @@ export async function run(): Promise<void> {
     stateHelper.setRegistry(registry);
     //stateHelper.setLogout(logout);
   } catch (error) {
-    setFailed(error.message);
+    if (error instanceof Error) {
+      setFailed(error.message);
+    }
   }
 }
 
